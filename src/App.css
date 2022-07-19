@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   text-align: center;
   background-color: #1a7993;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/background-2.png');
 }
 
 .h1 {
