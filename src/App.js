@@ -69,7 +69,7 @@ const App = function () {
 
   return (
     <Card>
-      <h1>Convert</h1>
+      <h1>€onver₺</h1>
       <CurrencyRow
         selectedCurrency={fromCurrency}
         currencyOptions={currencyOptions}
