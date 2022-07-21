@@ -29,6 +29,7 @@ const App = function () {
         const data = await FetchQuery(`${BASE_URL}/USD`);
         const symbols = Object.keys(data.conversion_rates);
         const TRY = "TRY";
+        console.log(symbols); 
         setFromCurrency(symbols[0]);
         setToCurrency(TRY);
         setCurrencyOptions(symbols);
