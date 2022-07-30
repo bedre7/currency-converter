@@ -2,9 +2,9 @@
 
 ## About
 
-- This project is a currency converter. It makes currency conversion easier for the user as it supports over 160 currencies globally all in one place!
-
 ![App Screenshot](src/assets/app-screenshot.png?raw=true)
+
+- This project is a currency converter. It makes currency conversion easier for the user as it supports over 160 currencies globally all in one place!
 
 ## Built with
 
