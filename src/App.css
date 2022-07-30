@@ -6,13 +6,9 @@ body {
   min-height: 100vh;
   text-align: center;
   background-color: #1a7993;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/background-2.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/background-2.png");
 }
-
-/* h1 {
-  margin: 0;
-  margin-bottom: 0.5rem;
-} */
 
 .input {
   border: 1px solid #333;
@@ -21,6 +17,11 @@ body {
   width: 15em;
   font-family: montserrat;
   font-size: 15px;
+  outline: none;
+}
+
+.input:focus {
+  border: #2b6186 solid;
 }
 
 select {
@@ -58,14 +59,14 @@ select {
   transition: all 0.3s;
 }
 
-h1{
+h1 {
   text-align: center;
   margin-top: -20px;
   border-bottom: 1px solid #666;
   font-weight: 700;
 }
 
-option{
+option {
   width: 100%;
   font-size: 18px;
 }
